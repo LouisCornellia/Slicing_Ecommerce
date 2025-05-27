@@ -55,4 +55,16 @@ class fonts {
     fontSize: 15,
     fontWeight: FontWeight.w500,
   );
+
+  //helper for color change
+  static TextStyle withColor(TextStyle style, Color color){
+    return style.copyWith(color: color);
+  }
+
+  //
+  static TextStyle withWeight(TextStyle style, FontWeight weight){
+    return style.copyWith(fontWeight: weight);
+  }
+
+  
 }
