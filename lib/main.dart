@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:slicing_application/controllers/auth_controller.dart';
 import 'package:slicing_application/controllers/theme_controller.dart';
 import 'package:slicing_application/page/splashpage.dart';
 import 'package:slicing_application/utils/themes.dart';
 
 void main() async {
-  await GetStorage.init;
+  GetStorage.init;
   Get.put(ThemeController());
+  Get.put(AuthController());
   runApp(MyApp());
 }
 

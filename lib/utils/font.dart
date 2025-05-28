@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class fonts {
+class Fonts {
   //heading
   static TextStyle h1 = GoogleFonts.poppins(
     fontSize: 32,
@@ -57,14 +57,12 @@ class fonts {
   );
 
   //helper for color change
-  static TextStyle withColor(TextStyle style, Color color){
+  static TextStyle withColor(TextStyle style, Color color) {
     return style.copyWith(color: color);
   }
 
   //
-  static TextStyle withWeight(TextStyle style, FontWeight weight){
+  static TextStyle withWeight(TextStyle style, FontWeight weight) {
     return style.copyWith(fontWeight: weight);
   }
-
-  
 }
