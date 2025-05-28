@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppThemes {
   static final light = ThemeData(
-    primaryColor: Color(0xffB03052),
+    primaryColor: Color(0xffb31c23),
     scaffoldBackgroundColor: Color(0xffEBE8DB),
     brightness: Brightness.light,
     appBarTheme: AppBarTheme(
@@ -11,8 +11,8 @@ class AppThemes {
       iconTheme: IconThemeData(color: Colors.black),
     ),
     colorScheme: ColorScheme.fromSeed(
-      seedColor: Color(0xffB03052),
-      primary: Color(0xffB03052),
+      seedColor: Color(0xffb31c23),
+      primary: Color(0xffb31c23),
       brightness: Brightness.light,
       surface: Color(0xffEBE8DB),
     ),
@@ -26,7 +26,7 @@ class AppThemes {
 
   //dark theme
   static final dark = ThemeData(
-    primaryColor: Color(0xffB03052),
+    primaryColor: Color(0xffb31c23),
     scaffoldBackgroundColor: Color(0xFF121212),
     brightness: Brightness.dark,
     appBarTheme: AppBarTheme(
@@ -35,8 +35,8 @@ class AppThemes {
       iconTheme: IconThemeData(color: Colors.white),
     ),
     colorScheme: ColorScheme.fromSeed(
-      seedColor: Color(0xffB03052),
-      primary: Color(0xffB03052),
+      seedColor: Color(0xffb31c23),
+      primary: Color(0xffb31c23),
       brightness: Brightness.dark,
       surface: Color(0xFF121212),
     ),
